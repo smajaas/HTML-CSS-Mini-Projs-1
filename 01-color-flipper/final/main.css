@@ -301,3 +301,37 @@ nav a:hover {
 Container
 ===============
 */
+main {
+  height: calc(100vh - 4rem);
+  display: grid;
+  place-items: center;
+}
+.container {
+  text-align: center;
+}
+.container h2 {
+  background: var(--black);
+  color: var(--white);
+  padding: 1rem;
+  border-radius: var(--borderRadius);
+  margin-bottom: 2.5rem;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+.color {
+  color: var(--primary-500);
+  text-transform: uppercase;
+}
+.btn-hero {
+  text-transform: uppercase;
+  background: transparent;
+  color: var(--black);
+  letter-spacing: 0.25rem;
+  font-weight: bold;
+  border: 2px solid var(--black);
+  padding: 0.75rem 1.25rem;
+}
+.btn-hero:hover {
+  color: var(--white);
+  background: var(--black);
+}
