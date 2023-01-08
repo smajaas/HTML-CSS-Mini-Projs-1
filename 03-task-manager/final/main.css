@@ -269,6 +269,7 @@ Task Manager
   width: 100%;
   margin-top: 1rem;
 }
+
 @media screen and (min-width: 576px) {
   .form-control {
     display: flex;
@@ -280,21 +281,19 @@ Task Manager
   }
   .submit-btn {
     margin-top: 0;
+    width: 175px;
     border-radius: 0;
     border-top-right-radius: var(--borderRadius);
     border-bottom-right-radius: var(--borderRadius);
-    width: 175px;
   }
 }
 .text-success {
   color: var(--green-dark);
 }
+/*************
+     TASKS
+*************/
 
-/*
-=============== 
-Tasks
-===============
-*/
 .tasks-container {
   width: 90vw;
   max-width: var(--fixed-width);
@@ -313,8 +312,8 @@ Tasks
   box-shadow: var(--shadow-2);
   transition: var(--transition);
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 .single-task:hover {
   box-shadow: var(--shadow-4);
@@ -322,6 +321,7 @@ Tasks
 .single-task h5 {
   margin-bottom: 0;
 }
+
 .single-task .fa-check-circle {
   margin-left: -1.25rem;
   margin-right: 1.5rem;
@@ -335,8 +335,7 @@ Tasks
 .task-completed .fa-check-circle {
   visibility: visible;
 }
-
-/* Tasks links */
+/* Task Links */
 .task-links {
   display: flex;
   align-items: center;
@@ -356,20 +355,19 @@ Tasks
   color: var(--red-dark);
 }
 
-/*
-=============== 
-Single Task Page
-===============
-*/
+/*************
+   SINGLE TASK PAGE
+*************/
 .single-task-form {
   margin-top: 6rem;
 }
 .single-task-form h4 {
   text-align: center;
 }
+
 .single-task-form p {
-  margin-top: 0;
   margin-bottom: 0;
+  margin-top: 0;
 }
 .single-task-form .form-control {
   display: grid;
@@ -378,10 +376,12 @@ Single Task Page
   gap: 0 1rem;
   margin-bottom: 0.75rem;
 }
+
 .single-task-form label {
   margin-bottom: 0;
   font-size: 1rem;
 }
+
 .back-link {
   display: block;
   width: 250px;
@@ -394,6 +394,7 @@ Single Task Page
   background: var(--black);
   opacity: 0.75;
 }
+
 .single-task-form .form-alert {
   text-align: center;
   margin-top: 1rem;
